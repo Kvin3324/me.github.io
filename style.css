@@ -1,0 +1,104 @@
+/* ----------- Body ------- */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background: white;
+}
+/* ------- Titles ------ */
+h1, h2, h3 {
+  color: #FBD533;
+  font-family: Roboto;
+  font-size: 1.5em;
+  line-height: 1.7em;
+}
+/* ------- Head ----- */
+.card--img--circle {
+  border-radius: 92px;
+  width: 180px;
+}
+h1 {
+  font-size: 3em;
+}
+.card--button a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+.card--button {
+  background: #FBD533;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card--button:hover {
+  background-color: #ba9400;
+  transition: ease-in 1s;
+}
+/* ------- Reseaux ------- */
+.card--list--inline {
+  padding-left: 0px;
+}
+.card--list--inline > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+.card--list--inline > li a:visited {
+  text-decoration: none;
+}
+.card--list--inline > li > a:hover {
+  color: #FBD533;
+  transition: all 1s;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.card--list--inline a {
+  text-decoration: none;
+  color: black;
+}
+/* ------ Container ----- */
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.card {
+  background: #F7F7F7;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card li > i {
+  line-height: 2.7em;
+}
+
+.card i {
+  width: 25px;
+}
+/* -------- Contact ----- */
+.card--mail a {
+  text-decoration: none;
+  color: black;
+}
+
+.card--mail a:hover {
+  color: #FBD533;
+  transition: ease-in 1s;
+}
+
+/* ---------- Medias Queries ----------- */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
