@@ -4,6 +4,30 @@ body {
   font-weight: 300;
   background: white;
 }
+/* ------ Sidebar ----- */
+#sidebar {
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 120px;
+  text-align: center;
+}
+#sidebar ul > li {
+  list-style-type: none;
+}
+#sidebar ul > li > a:visited {
+  color: black;
+}
+#sidebar ul > li > a > i {
+  margin-right: 40px;
+  font-size: 2.5em;
+  line-height: 4em;
+  display: inline-block;
+  color: black;
+}
 /* ------- Titles ------ */
 h1, h2, h3 {
   color: #FBD533;

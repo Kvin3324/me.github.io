@@ -10,59 +10,107 @@ releases/v5.0.10/css/all.css">
   <title>My profile</title>
 </head>
 <body>
-<div class="container">
-  <div class="card">
-    <img class="card--img--circle" src="kevin.jpg" alt="kevin joya picture">
-  <h1>Kevin Joya</h1>
-  <h2>Dev Fullstack Jr aux armes !</h2>
-  <p><strong>Salut la team ! Je me présente: Kévin Joya jeune codeur</strong> Depuis mon plus jeune âge je suis un passionné des nouvelles technologies: informatique, multimédia... J'ai longtemps cherché ma vocation mais j'ai toujours eu cette attirance du bon côté de la force: la technologie. Vous vous demandez si je ne confonds pas informatique et Web: bien-sûr que non ! Depuis quelques années je me suis intéressé au web puis j'ai décidé de m'y formé à travers des formations tel un autodidacte. Mes skills d'aujourd'hui sont renforcés et confirmés pour certains: HTML, CSS, Bootstrap, Wordpress, Ruby on Rails (loading <i class="fas fa-spinner"></i>), JavaScript (loading <i class="fas fa-spinner"></i>). N'hésitez pas à me follow pour plus d'aventures !
-  </p>
-  <button class="card--button"><a href="http://kevin-joya.fr/" target="_blank">My Portfolio</a></button>
-  </div>
-  <div class="card">
-    <ul class="card--list--inline">
-      <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/k%C3%A9vin-joya-5b6250133/" target="_blank">Linkedin</a>
+
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#about">
+          <i class="fa fa-info-circle"></i>
+        </a>
       </li>
-      <li><i class="fab fa-twitter-square"></i><a href="https://twitter.com/kvinjya" target="_blank">Twitter</a>
+      <li>
+        <a href="#network">
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#hobbies">
+          <i class="far fa-life-ring"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#contact">
+          <i class="fas fa-envelope"></i>
+        </a>
       </li>
     </ul>
   </div>
-  <div class="card">
-    <h2>My passions</h2>
-      <table>
-      <tbody>
-    <tr>
-      <td> <img src="http://fr.web.img6.acsta.net/medias/nmedia/18/90/46/07/20182376.jpg" alt="Les hommes sans loi" width="150px">
-      </td>
-      <td><h3>Les Hommes sans loi</h3>
-      <p>En 1931. Virginie. La prohibition sévit encore aux États-Unis et le jeune Jack Bondurant souhaite prouver sa valeur à ses deux frères aînés, trafiquants d'alcool notoires. Howard, le cadet, n'est pas sans talent, mais l'alcool noie souvent son bon sens. Quant à Forrest, l'aîné, le chef de la fratrie…</p>
-      </td>
-    </tr>
-    <tr>
-      <td><img src="https://d2tml28x3t0b85.cloudfront.net/tracks/artworks/000/814/435/original/a061cd.jpeg?1527466573" alt="Love lies - Khalid" width="150px">
-      </td>
-      <td><h3>Love lies - Khalid</h3>
-      <p>Don't be afraid to tell me if you ain't with it (you ain't with it)
-      I see you're focused, yeah you're so independent (independent)
-      It's hard for me to open up, I'll admit it (I'll admit it)
-      You've got some shit to say and I'm here to listen…</p>
-      </td>
-    </tr>
-    <tr>
-      <td><img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/1/thumb_bigger_formation-ruby-on-rails.png" alt="Ruby" width="150px">
-      </td>
-      <td><h3>Ruby on Rails</h3>
-      <p>Ruby on Rails, également appelé RoR ou Rails, est un framework web libre écrit en Ruby. Il suit le motif de conception modèle-vue-contrôleur. Il propose une structure qui permet de développer rapidement et intuitivement.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+  <div class="container">
+    <div id="about">
+      <div class="card">
+        <img class="card--img--circle" src="kevin.jpg" alt="kevin joya picture">
+        <h1>Kevin Joya</h1>
+        <h2>Dev Fullstack Jr aux armes !</h2>
+        <p>
+          <strong>Salut la team ! Je me présente: Kévin Joya jeune codeur</strong> Depuis mon plus jeune âge je suis un passionné des nouvelles technologies: informatique, multimédia... J'ai longtemps cherché ma vocation mais j'ai toujours eu cette attirance du bon côté de la force: la technologie. Vous vous demandez si je ne confonds pas informatique et Web: bien-sûr que non ! Depuis quelques années je me suis intéressé au web puis j'ai décidé de m'y formé à travers des formations tel un autodidacte. Mes skills d'aujourd'hui sont renforcés et confirmés pour certains: HTML, CSS, Bootstrap, Wordpress, Ruby on Rails (loading <i class="fas fa-spinner"></i>), JavaScript (loading <i class="fas fa-spinner"></i>). N'hésitez pas à me follow pour plus d'aventures !
+        </p>
+        <button class="card--button"><a href="http://kevin-joya.fr/" target="_blank">My Portfolio</a></button>
+      </div>
+    </div>
+
+    <div id="network">
+      <div class="card">
+        <ul class="card--list--inline">
+          <li>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/k%C3%A9vin-joya-5b6250133/" target="_blank">Linkedin</a>
+          </li>
+          <li>
+            <i class="fab fa-twitter-square"></i>
+            <a href="https://twitter.com/kvinjya" target="_blank">Twitter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div id="hobbies">
+      <div class="card">
+        <h2>My passions</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img src="http://fr.web.img6.acsta.net/medias/nmedia/18/90/46/07/20182376.jpg" alt="Les hommes sans loi" width="150px">
+              </td>
+              <td>
+                <h3>Les Hommes sans loi</h3>
+                <p>En 1931. Virginie. La prohibition sévit encore aux États-Unis et le jeune Jack Bondurant souhaite prouver sa valeur à ses deux frères aînés, trafiquants d'alcool notoires. Howard, le cadet, n'est pas sans talent, mais l'alcool noie souvent son bon sens. Quant à Forrest, l'aîné, le chef de la fratrie…</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://d2tml28x3t0b85.cloudfront.net/tracks/artworks/000/814/435/original/a061cd.jpeg?1527466573" alt="Love lies - Khalid" width="150px">
+              </td>
+              <td>
+                <h3>Love lies - Khalid</h3>
+                <p>
+                  Don't be afraid to tell me if you ain't with it (you ain't with it)
+                  I see you're focused, yeah you're so independent (independent)
+                  It's hard for me to open up, I'll admit it (I'll admit it)
+                  You've got some shit to say and I'm here to listen…
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/1/thumb_bigger_formation-ruby-on-rails.png" alt="Ruby" width="150px">
+              </td>
+              <td>
+                <h3>Ruby on Rails</h3>
+                <p>Ruby on Rails, également appelé RoR ou Rails, est un framework web libre écrit en Ruby. Il suit le motif de conception modèle-vue-contrôleur. Il propose une structure qui permet de développer rapidement et intuitivement.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="card">
+        <h3>Contactez moi</h3>
+        <p>Pour plus d'informations me concernant, n'hésitez pas à me contacter !</p>
+        <p class="card--mail"><a href="mailto:kevin.joya@outlook.com">kevin.joya@outlook.com</a></p>
+      </div>
+    </div>
   </div>
-  <div class="card">
-    <h3>Contactez moi</h3>
-    <p>Pour plus d'informations me concernant, n'hésitez pas à me contacter !</p>
-    <p class="card--mail"><a href="mailto:kevin.joya@outlook.com">kevin.joya@outlook.com</a></p>
-  </div>
-</div>
 </body>
 </html>
